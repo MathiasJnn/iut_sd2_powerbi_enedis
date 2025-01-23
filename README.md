@@ -1,4 +1,4 @@
-# Projet R - Département de la Meuse (55)
+# Projet Power BI - Comparaison du département de la Meuse (55) & de la Moselle (57)
 ## Auteurs : Mathias Janin & Azad Lucas
 
 Ce README est composé de:
@@ -7,7 +7,7 @@ Ce README est composé de:
 
 
 ## Rappel du projet
-Dans le cadre du projet R réalisé à l'IUT par les SD2 (années 2024-25), nous avons choisi de travailler sur le département de la Meuse (55). Pour rappel, le projet consiste à développer une application RShiny permettant de visualiser des données énergétiques (logements neufs et anciens) pour un département donné.  L'objectif est d'offrir à l'utilisateur des outils pour explorer les données via des graphiques, tableaux et cartographies interactives. En complément de cette application, un rapport RMarkdown a été produit pour détailler les analyses statistiques réalisées sur ces données. Ce projet s'inscrit dans le cadre d'une étude visant à explorer l'impact du Diagnostic de Performance Energétique (DPE) sur les consommations énergétiques des logements grâce à des données provenant de plusieurs sources, notamment la [Base Adresse Nationale](https://adresse.data.gouv.fr/data/ban/adresses/latest/csv) (BAN) et deux API fournies par l'[ADEME](https://data.ademe.fr/datasets?topics=BR8GjsXga) (logements neufs et existants).
+Dans le cadre du projet Power BI réalisé à l'IUT par les SD2 (années 2024-25), nous avons choisi de travailler sur les départements de la Meuse (55) et de la Moselle (57), respectivemetn le département le moins peuplé et le plus peuplé de la région Grand Est (France). Pour rappel, le projet consiste à développer des rapports Power BI permettant de visualiser des données énergétiques (logements neufs et existants) pour un lieu au choix.  L'objectif est d'offrir à l'utilisateur des outils pour explorer les données via des graphiques, tableaux et cartographies interactives, afin de mieux cerner les différences à ce sujet entre un département à faible et à forte densité de population. En complément de cetravail, d'autres fichiers ont été implémenté dans ce repository afin de détailler davantage les analyses statistiques réalisées sur ces données. Ce projet s'inscrit dans le cadre d'une étude visant à explorer l'impact du Diagnostic de Performance Energétique (DPE) sur les consommations énergétiques des logements grâce à des données provenant de plusieurs sources, notamment la [Base Adresse Nationale](https://adresse.data.gouv.fr/data/ban/adresses/latest/csv) (BAN) et deux API fournies par l'[ADEME](https://data.ademe.fr/datasets?topics=BR8GjsXga) (logements neufs et existants).
 <br>
 </br>
 
