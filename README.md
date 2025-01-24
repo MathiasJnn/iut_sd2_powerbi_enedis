@@ -7,7 +7,7 @@ Ce README est composé de:
 
 
 ## Rappel du projet
-Dans le cadre du projet Power BI réalisé à l'IUT par les SD2 (années 2024-25), nous avons choisi de travailler sur les départements de la Meuse (55) et de la Moselle (57), respectivemetn le département le moins peuplé et le plus peuplé de la région Grand Est (France). Pour rappel, le projet consiste à développer des rapports Power BI permettant de visualiser des données énergétiques (logements neufs et existants) pour un lieu au choix.  L'objectif est d'offrir à l'utilisateur des outils pour explorer les données via des graphiques, tableaux et cartographies interactives, afin de mieux cerner les différences à ce sujet entre un département à faible et à forte densité de population. En complément de cetravail, d'autres fichiers ont été implémenté dans ce repository afin de détailler davantage les analyses statistiques réalisées sur ces données. Ce projet s'inscrit dans le cadre d'une étude visant à explorer l'impact du Diagnostic de Performance Energétique (DPE) sur les consommations énergétiques des logements grâce à des données provenant de plusieurs sources, notamment la [Base Adresse Nationale](https://adresse.data.gouv.fr/data/ban/adresses/latest/csv) (BAN) et deux API fournies par l'[ADEME](https://data.ademe.fr/datasets?topics=BR8GjsXga) (logements neufs et existants).
+Dans le cadre du projet Power BI réalisé à l'IUT par les SD2 (années 2024-25), nous avons choisi de travailler sur les départements de la Meuse (55) et de la Moselle (57), respectivement le département le moins peuplé et le plus peuplé de la région Grand Est (France). Pour rappel, le projet consiste à développer des rapports Power BI permettant de visualiser des données énergétiques (logements neufs et existants) pour un lieu choisi.  Notre objectif est d'offrir à l'utilisateur des outils pour explorer les données via des graphiques, tableaux et cartographies interactives, afin de mieux cerner les différences au niveau des performances énergétiques entre un département à faible et à forte densité de population. En complément de ce travail, d'autres fichiers ont été implémenté dans ce repository afin de détailler davantage les analyses statistiques réalisées sur ces données. Ce projet s'inscrit dans le cadre d'une étude visant à explorer l'impact du Diagnostic de Performance Energétique (DPE) sur les consommations énergétiques des logements grâce à des données provenant de plusieurs sources, notamment la [Base Adresse Nationale](https://adresse.data.gouv.fr/data/ban/adresses/latest/csv) (BAN) et deux API fournies par l'[ADEME](https://data.ademe.fr/datasets?topics=BR8GjsXga) (logements neufs et existants).
 <br>
 </br>
 
@@ -15,28 +15,21 @@ Dans le cadre du projet Power BI réalisé à l'IUT par les SD2 (années 2024-25
 Voici la liste des fichiers disponibles dans ce repository et leur utilité dans le projet :
 <br>
 </br>
-### **`Application_Meuse.R`**: 
-Ce fichier est le script R qui permet d'éxécuter l'application RShiny. Ayant eu des soucis quant au déploiement de l'application, il faut copier le code afin de l'éxécuter sur R.
+### **`df_final_Meuse.csv`**: 
+Ce fichier contient la base de données nécessaire pour obtenir des informations liées au département de la Meuse sur PowerBI.
 <br>
 </br>
-### **`adresses-55.csv`**: 
-Ce fichier contient les données issues de la Base Adresse Nationale (BAN) pour le département de la Meuse (55). Il nous a permis d'importer les informations géographiques des logements dans notre base de données. Il sert également de lien pour éxécuter le code sans avoir à importer localement les données sur le poste de l'utilisateur.
-<br>
-</br>
-### **`Base_de_données.R`** : 
-Script R permettant de générer la base de données finale. Cette base regroupe les données de la BAN ainsi que celles des API "logements neufs" et "logements existants" de l'ADEME. Des commentaires explicatifs du code y sont associé.
+### **`df_final_Moselle.csv`**: 
+Ce fichier contient la base de données nécessaire pour obtenir des informations liées au département de la Moselle sur PowerBI.
 <br>
 </br>
 ### **`Documentation.pdf`** : 
-Documentation est le fichier regroupant la doc technique et fonctionnelle pour l'application Shiny. La première est orientée développeur et la seconde orientée utilisateur. Vous y retrouverez tout ce qui est important pour la bonne utilisation de l'appli.
+Documentation est le fichier regroupant la doc technique et fonctionnelle de l'application. La première est regroupe principalement les notions de modèle de données, règles RLS, diagnostique de l'analyse de performance du rapport PowerBI, ainsi que la maquette de l'application. 
+La seconde sera plutôt orientée utilisateur. Vous y retrouverez tout ce qui est important pour la bonne utilisation de l'application, l'intérêt des visualisations choisies, ou encore les différentes fonctionnalités majeures de celle-ci.
 <br>
 </br>
-### **`Rapport_final_Script.Rmd`** : 
-Ce fichier est un document RMarkdown qui contient le code source permettant de générer le rapport final en format HTML. Il regroupe les analyses et visualisations réalisées à partir des données collectées ainsi que des commentaires du code (commentaires qui ne sont pas forcément répétés dans le shiny).
-<br>
-</br>
-### **`Rapport_final_HTML.html`** : 
-Rapport final généré en format HTML. Il présente les analyses statistiques et graphiques réalisées à partir des données collectées. C'est un fichier html récupéré pour un exemple visuel du 13/10/2024.
+### **`Rapport_Meuse_et_Moselle.pbix`** : 
+Ce fichier est notre fichier final Power BI. Il regroupe l'intégralité de nos analyses, sous forme de visualisations et KPIs, permettant de comparer les différences de performances énergétiques entre les deux départements du Grand Est ayant un grand écart en terme de densité de population.
 <br>
 </br>
 ### **`README.md`** : 
