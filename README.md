@@ -23,7 +23,7 @@ Ce fichier contient la base de données nécessaire pour obtenir des information
 Ce fichier contient la base de données nécessaire pour obtenir des informations liées au département de la Moselle sur PowerBI.
 <br>
 </br>
-### **`Documentation.pdf`** : 
+### **`Documentation fonctionnelle & technique.pdf`** : 
 Documentation est le fichier regroupant la doc technique et fonctionnelle de l'application. La première est regroupe principalement les notions de modèle de données, règles RLS, diagnostique de l'analyse de performance du rapport PowerBI, ainsi que la maquette de l'application. 
 La seconde sera plutôt orientée utilisateur. Vous y retrouverez tout ce qui est important pour la bonne utilisation de l'application, l'intérêt des visualisations choisies, ou encore les différentes fonctionnalités majeures de celle-ci.
 <br>
