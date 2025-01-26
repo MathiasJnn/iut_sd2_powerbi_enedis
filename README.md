@@ -29,7 +29,7 @@ La seconde sera plutôt orientée utilisateur. Vous y retrouverez tout ce qui es
 <br>
 </br>
 ### **`Rapport_Meuse_et_Moselle.pbix`** : 
-Ce fichier est notre fichier final Power BI. Il regroupe l'intégralité de nos analyses, sous forme de visualisations et KPIs, permettant de comparer les différences de performances énergétiques entre les deux départements du Grand Est ayant un grand écart en terme de densité de population.
+https://app.powerbi.com/links/OUs8j4qW6e?ctid=a51a6642-5911-4306-a13c-f4731ab9c63f&pbi_source=linkShare
 <br>
 </br>
 ### **`README.md`** : 
