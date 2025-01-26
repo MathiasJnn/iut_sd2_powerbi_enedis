@@ -28,7 +28,8 @@ Documentation est le fichier regroupant la doc technique et fonctionnelle de l'a
 La seconde sera plutôt orientée utilisateur. Vous y retrouverez tout ce qui est important pour la bonne utilisation de l'application, l'intérêt des visualisations choisies, ou encore les différentes fonctionnalités majeures de celle-ci.
 <br>
 </br>
-### **`Rapport_Meuse_et_Moselle.pbix`** : 
+### **`PBiFinal.pbix`** : 
+
 https://app.powerbi.com/links/OUs8j4qW6e?ctid=a51a6642-5911-4306-a13c-f4731ab9c63f&pbi_source=linkShare
 <br>
 </br>
