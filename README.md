@@ -29,8 +29,7 @@ La seconde sera plutôt orientée utilisateur. Vous y retrouverez tout ce qui es
 <br>
 </br>
 ### **`PBiFinal.pbix`** : 
-
-https://app.powerbi.com/links/OUs8j4qW6e?ctid=a51a6642-5911-4306-a13c-f4731ab9c63f&pbi_source=linkShare
+Ce fichier contient notre application PowerBI. Le lien vous sera envoyé par mail.
 <br>
 </br>
 ### **`README.md`** : 
